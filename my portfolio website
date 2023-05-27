@@ -1,0 +1,149 @@
+// html 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="overlay">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Myself Aman currently pursuing CSE 6th sem in sahyadri college of engineering management i have keen interests in learning new things about technology and exploring in it.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a web developer intern have some experience  in HTML, CSS, and JavaScript, also exploring some of the domain .</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>timetable management system</h3>
+        <p>User Management: Allow users to register, log in, and manage their profiles. Users can have different roles, such as administrators, teachers, or students, each with different permissions.
+
+          Timetable Creation: Enable administrators or authorized users to create and manage timetables for different classes or groups. This includes defining subjects, assigning teachers, and specifying time slots for each class.
+          
+          Class Scheduling: Provide a user-friendly interface for scheduling classes, assigning teachers to specific subjects and classes, and managing classroom availability.
+          
+          Automated Conflict Detection: Implement conflict detection algorithms to identify and highlight any conflicts or clashes in the timetable, such as overlapping classes or teacher availability issues.
+          
+          Calendar Integration: Integrate with calendar systems to allow users to sync the timetable with their personal calendars, ensuring they receive reminders for upcoming classes.
+          
+          Class Notifications: Send automated notifications to teachers and students to remind them of upcoming classes, changes in the timetable, or important announcements.</p>
+      </div>
+      <div class="project">
+        <h3>crossy road( mini project)</h3>
+        <p>Game Mechanics: Implement the core game mechanics of Crossy Road, where the player controls a character to navigate through a busy road and cross it safely. Include features such as moving vehicles, gaps, and obstacles that the player needs to avoid.
+
+          Character Selection: Provide a variety of characters for the player to choose from, each with its own unique appearance and characteristics. Some characters could be unlocked by achieving specific goals or collecting in-game currency.
+          
+          Random Level Generation: Design a system that generates random levels or road layouts, ensuring that each gameplay session offers a fresh and unique experience. Randomize the positions of vehicles, obstacles, and gaps to keep the game challenging and engaging.
+          
+          Score and Progression: Implement a scoring system where the player earns points for successfully crossing the road or achieving certain milestones. Keep track of the player's high score and provide rewards or unlockables as they progress further in the game.
+          
+          Power-ups and Collectibles: Include power-ups or collectible items that the player can acquire during gameplay to gain temporary advantages, such as invincibility, extra lives, or speed boosts. These power-ups can enhance the gameplay experience and add strategic elements.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Aman k">
+        <input type="email" placeholder="amankrish78@gmail." aria-hidden="true"></i>">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+//css
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+section {
+  padding: 100px 0;
+  text-align: center;
+  color: #333;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.project {
+  margin-bottom: 20px;
+}
